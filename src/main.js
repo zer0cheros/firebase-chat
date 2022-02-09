@@ -1,14 +1,13 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.6/firebase-app.js";
 import { getFirestore, collection, setDoc, doc, onSnapshot, query } from "https://www.gstatic.com/firebasejs/9.6.6/firebase-firestore.js";
-
 const firebaseConfig = {
-  apiKey: "AIzaSyAE4Ss2viP76evjxH03daDDlSgzSInVGFM",
-  authDomain: "webb-235f0.firebaseapp.com",
-  databaseURL: "https://webb-235f0-default-rtdb.europe-west1.firebasedatabase.app",
+  apiKey: "",
+  authDomain: "",
+  databaseURL: "",
   projectId: "webb-235f0",
   storageBucket: "webb-235f0.appspot.com",
-  messagingSenderId: "535953968153",
-  appId: "1:535953968153:web:cc2a1d98c12c154f5a6e88"
+  messagingSenderId: "",
+  appId: ""
 };
 
 // Initialize Firebase
